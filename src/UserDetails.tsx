@@ -10,7 +10,7 @@ const UserDetails: React.FC = () => {
     // Log the user ID to the console
     console.log(id);
 
-    // Display the user ID in an h2 element
+    // Display the user ID in a h2 element
     return <h2>User ID: {id}</h2>;
 };
 

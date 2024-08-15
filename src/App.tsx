@@ -3,6 +3,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import UserDetails from './UserDetails';
 import NavigateButton from './NavigateButton';
+import ProductList from './ProductList';
 
 // Define simple functional components for Home, About, and Contact pages
 const Home = () => <h2>Home</h2>;
@@ -21,6 +22,7 @@ const App: React.FC = () => {
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/user/:id" element={<UserDetails />} />
+                <Route path="/products" element={<ProductList />} />
             </Routes>
         </div>
     );
